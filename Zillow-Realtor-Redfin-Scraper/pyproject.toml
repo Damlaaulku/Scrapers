@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "keyturn-property-scraper"
+version = "0.2.7"
+description = ""
+authors = []
+
+[[tool.poetry.source]]
+name = "keyturn-property-scraper"
+url = "https://api.packagr.app/nQQS8Bs9/"
+secondary = true
+default = false
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.28.1"
+marshmallow = "^3.19.0"
+fake-useragent = "^1.1.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
